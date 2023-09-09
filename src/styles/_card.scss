@@ -1,0 +1,27 @@
+.card {
+    width: 175px;
+    font-size: 12px;
+    font-family: Poppins;
+
+    &--image {
+        width: 100%;
+        border-radius: 9px;
+    }
+
+    &--stats {
+        display: flex;
+        align-items: center;
+    }
+
+    &--star {
+        height: 14px
+    }
+
+    & .grayed-out {
+        color: #918E9B;
+    }
+
+    & .bold {
+        font-weight: bold;
+    }
+}
