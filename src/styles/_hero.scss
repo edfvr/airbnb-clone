@@ -2,32 +2,39 @@
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
+
+    & img {
+        width: 24.7rem;
+        height: 14.5rem;
+    }
 }
 
-.photo-grid--container img {
-    width: 24.7rem;
-    height: 14.5rem;
-}
 
-.hero-title {
-    width: 21.6875rem;
-    color: #000;
-    font-family: Poppins;
-    font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 110%; /* 2.475rem */
-    margin: 1.5rem 1.88rem 0;
-}
+.hero {
+    display: flex;
+    flex-direction: column;
 
-.hero-text {
-    width: 20rem;
-    height: 3.5rem;
-    color: #222;
-    font-family: Poppins;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 110%; /* 1.1rem */
-    margin: 1rem 1.88rem 0;
-}
+    &-title {
+        width: 21.6875rem;
+        color: #000;
+        font-family: Poppins;
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%; /* 2.475rem */
+        margin: 1.5rem 1.88rem 0;
+    }
+    
+    &-text {
+        width: 20rem;
+        height: 3.5rem;
+        color: #222;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 110%; /* 1.1rem */
+        margin: 1rem 1.88rem 0;
+    }
+} 
+

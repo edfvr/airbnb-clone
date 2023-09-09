@@ -1,5 +1,6 @@
 @import 'navbar';
 @import 'hero';
+@import 'card';
 
 * {
     box-sizing: border-box;
@@ -7,4 +8,8 @@
 
 body {
     margin: 0;
+}
+
+section {
+    padding: 20px;
 }
