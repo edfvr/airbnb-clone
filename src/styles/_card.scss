@@ -2,6 +2,9 @@
     width: 175px;
     font-size: 12px;
     font-family: Poppins;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
 
     &--image {
         width: 100%;
@@ -14,7 +17,7 @@
     }
 
     &--star {
-        height: 14px
+        height: 14px;
     }
 
     & .grayed-out {
@@ -24,4 +27,13 @@
     & .bold {
         font-weight: bold;
     }
+}
+
+
+.cards--list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
 }

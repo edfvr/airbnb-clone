@@ -9,7 +9,8 @@ export default function App() {
       <Card 
       id={card.id}
       img={card.coverImg}
-      rating={card.stats.reviewCount}
+      rating={card.stats.rating}
+      reviewCount={card.stats.reviewCount}
       location={card.location}
       title={card.title}
       price={card.price}
@@ -20,7 +21,9 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      {cardData}
+      <section className='cards--list'>
+        {cardData}
+      </section>
     </div>
   )
 }

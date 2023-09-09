@@ -50,6 +50,9 @@
   width: 175px;
   font-size: 12px;
   font-family: Poppins;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
 }
 .card--image {
   width: 100%;
@@ -67,6 +70,14 @@
 }
 .card .bold {
   font-weight: bold;
+}
+
+.cards--list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
 }
 
 * {
