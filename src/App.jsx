@@ -1,10 +1,12 @@
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Card from './components/Card'
 
 export default function App() {
   return (
     <div className="">
       <Navbar />
-      <h1>App is working</h1>
+      <Hero />
     </div>
   )
 }
