@@ -19,8 +19,8 @@ export default function Card(props) {
                 <span className="grayed-out">({props.item.stats.reviewCount}) • </span> 
                 <span className="grayed-out">{props.item.location}</span>
             </div>
-            <p>{props.item.title}</p>
-            <p><span className="bold">From ${props.item.price}</span> / person</p>
+            <p className="card--title">{props.item.title}</p>
+            <p className="card--price"><span className="bold">From ${props.item.price}</span> / person</p>
         </div>
     )
 }

@@ -26,25 +26,25 @@
   flex-direction: column;
 }
 .hero-title {
-  width: 21.6875rem;
+  width: 24rem;
   color: #000;
   font-family: Poppins;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: 110%; /* 2.475rem */
-  margin: 1.5rem 1.88rem 0;
+  margin: 2rem 1.88rem 0;
 }
 .hero-text {
-  width: 20rem;
+  width: 24rem;
   height: 3.5rem;
   color: #222;
   font-family: Poppins;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 300;
   line-height: 110%; /* 1.1rem */
-  margin: 1rem 1.88rem 0;
+  margin: 1rem 1.88rem 2rem;
 }
 
 .card {
@@ -54,15 +54,22 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
+  gap: 0.2rem;
 }
 .card--image {
   width: 100%;
   border-radius: 9px;
+  margin-bottom: 0.2rem;
+}
+.card--title {
+  overflow: hidden;
+  font-size: 0.9rem;
+  text-overflow: ellipsis;
 }
 .card--stats {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 2.5px;
   align-items: center;
   font-size: 0.8rem;
 }
@@ -74,6 +81,9 @@
 }
 .card .bold {
   font-weight: bold;
+}
+.card--price {
+  margin-top: auto;
 }
 
 .cards--list {
@@ -96,9 +106,7 @@
 
 * {
   box-sizing: border-box;
-}
-
-body {
+  padding: 0;
   margin: 0;
 }
 

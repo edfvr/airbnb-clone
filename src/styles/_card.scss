@@ -5,16 +5,24 @@
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
+    gap: .2rem;
 
     &--image {
         width: 100%;
         border-radius: 9px;
+        margin-bottom: .2rem;
+    }
+
+    &--title {
+        overflow: hidden;
+        font-size: .9rem;
+        text-overflow: ellipsis;
     }
 
     &--stats {
         display: flex;
         flex-direction: row;
-        gap: 5px;
+        gap: 2.5px;
         align-items: center;
         font-size: .8rem;
     }
@@ -31,7 +39,9 @@
         font-weight: bold;
     }
 
-    
+    &--price {
+        margin-top: auto;
+    }
 }
 
 
